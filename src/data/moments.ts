@@ -113,19 +113,19 @@ Someone asked about my process. I tried to explain but realized—the process is
     media: [
       {
         type: 'image',
-        url: 'public/photo_2025-12-20_21-43-11.jpg',
+        url: '/photo_2025-12-20_21-43-11.jpg',
         alt: 'Gallery opening night',
         caption: 'First guests arriving'
       },
       {
         type: 'image',
-        url: 'public/photo_2025-12-20_21-43-12 (2).jpg',
+        url: '/photo_2025-12-20_21-43-12 (2).jpg',
         alt: 'Artwork on gallery wall',
         caption: 'Ce Père Idéal in its new home'
       },
       {
         type: 'gallery',
-        url: 'public/photo_2025-12-20_21-43-12.jpg',
+        url: '/photo_2025-12-20_21-43-12.jpg',
         alt: 'Guests viewing art',
         caption: 'The moment of connection'
       }

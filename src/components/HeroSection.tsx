@@ -122,7 +122,7 @@ export function HeroSection() {
 
             <div className="absolute inset-0 bg-white/10 z-0"></div>
             <img
-              src="public/Image 7 - Stylized Portrait b-white.png"
+              src="/Image 7 - Stylized Portrait b-white.png"
               alt="Featured Artwork"
               className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-[2s] ease-out" />
 

@@ -27,7 +27,7 @@ export const artworks: Artwork[] = [
   year: 2025,
   description:
   'A profound exploration of paternal figures and the weight of expectations. This piece layers resin over mixed media to create a depth that mirrors the complexity of memory. The interplay of light and shadow suggests the duality of presence and absence.',
-  images: ["public/Image 9 - Stylized Face.png", "public/ChatGPT Image Feb 13, 2026, 12_05_00 PM.png",
+  images: ["/Image 9 - Stylized Face.png", "/ChatGPT Image Feb 13, 2026, 12_05_00 PM.png",
 
   // Mocking multiple views with same image but different crops via CSS in real app, here just array
   "/artportfolio.jpg"]
@@ -46,7 +46,7 @@ export const artworks: Artwork[] = [
   year: 2025,
   description:
   "Capturing the fleeting moment of connection. 'The Light in Her Eyes' speaks to the silent language of intimacy. The resin finish provides a glass-like quality, preserving the emotion suspended in time.",
-  images: ["public/Image 1 - Professional Portrait.png"]
+  images: ["/Image 1 - Professional Portrait.png"]
 
 
 
@@ -64,7 +64,7 @@ export const artworks: Artwork[] = [
   year: 2023,
   description:
   "A portrait of innocence and resilience. 'Loulou' uses bold strokes and a softer palette to convey the fragility of childhood. The texture of the raw canvas remains visible, grounding the ethereal subject matter.",
-  images: ["public/20250705_161655.jpg", "public/photo_2025-07-05_15-07-04.jpg"]
+  images: ["/20250705_161655.jpg", "/photo_2025-07-05_15-07-04.jpg"]
 },
 {
   id: 4,
@@ -79,7 +79,7 @@ export const artworks: Artwork[] = [
   year: 2025,
   description:
   "An exploration of maternal forms through clay. 'Terre Mère' celebrates the organic curves and strength found in earth and feminine power. The glaze work creates a skin-like texture that invites touch.",
-  images: ["public/photo_2025-12-20_00-27-18.jpg"]
+  images: ["/photo_2025-12-20_00-27-18.jpg"]
 },
 {
   id: 5,
@@ -109,7 +109,7 @@ export const artworks: Artwork[] = [
   year: 2025,
   description:
   "The city breathes through layered acrylic, capturing the rhythm of urban life. Architectural forms dissolve into abstract patterns, questioning the boundary between the built environment and human experience.",
-  images: ["public/Image 5 - Abstract Female Busts.png"]
+  images: ["/Image 5 - Abstract Female Busts.png"]
 },
 {
   id: 7,
@@ -124,7 +124,7 @@ export const artworks: Artwork[] = [
   year: 2023,
   description:
   "A functional sculpture that blurs the line between utility and art. The organic asymmetry speaks to the imperfection inherent in handmade objects, while the oxide finish reveals the clay's natural variations.",
-  images: ["public/photo_2025-12-20_00-28-25.jpg"]
+  images: ["/photo_2025-12-20_00-28-25.jpg"]
 },
 {
   id: 8,
@@ -154,7 +154,7 @@ export const artworks: Artwork[] = [
   year: 2023,
   description:
   "Where sea meets sky in an infinite dialogue. This piece invites meditation on vastness and solitude, using subtle color shifts to create depth that extends beyond the canvas edges.",
-  images: ["public/Image 4 - Purple Figs.png", "public/Image 4 - Purple Figs.png"]
+  images: ["/Image 4 - Purple Figs.png", "/Image 4 - Purple Figs.png"]
 },
 {
   id: 10,
@@ -169,5 +169,5 @@ export const artworks: Artwork[] = [
   year: 2025,
   description:
   "A visual poem about the spaces between words and the weight of unspoken emotions. Layers of paint and collage create a tactile surface that invites viewers to linger in the quiet tension.",
-  images: ["public/Image 8 - Cosmic Figures.png"]
+  images: ["/Image 8 - Cosmic Figures.png"]
 }];

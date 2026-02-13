@@ -74,7 +74,7 @@ export function AboutPage({ onNavigate }: AboutPageProps) {
           className="relative w-full max-w-2xl aspect-[3/4] md:aspect-[16/9] overflow-hidden shadow-xl mt-8">
 
           <img
-            src="public/Image 5 - Abstract Female Busts.png"
+            src="/Image 5 - Abstract Female Busts.png"
             alt="Aria Artist Portrait"
             className="w-full h-full object-cover" />
 
@@ -218,7 +218,7 @@ export function AboutPage({ onNavigate }: AboutPageProps) {
       <section className="py-32 px-6 md:px-12 bg-charcoal text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="public/Image 8 - Cosmic Figures.png"
+            src="/Image 8 - Cosmic Figures.png"
             alt="Background"
             className="w-full h-full object-cover grayscale" />
 
@@ -265,7 +265,7 @@ function JourneyBlock({
         <div className="aspect-[4/5] overflow-hidden relative">
           <div className="absolute inset-0 bg-white/10 mix-blend-multiply"></div>
           <img
-            src="public/Image 3 - Vibrant Portrait b-white.png"
+            src="/Image 3 - Vibrant Portrait b-white.png"
             alt={title}
             className={`w-full h-full object-cover ${imagePosition} hover:scale-105 transition-transform duration-[2s]`} />
 
