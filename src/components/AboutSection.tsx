@@ -29,7 +29,7 @@ export function AboutSection({ onNavigate }: AboutSectionProps) {
             <div className="relative w-full aspect-[4/5] overflow-hidden group">
               <div className="absolute inset-0 bg-terracotta mix-blend-multiply opacity-0 group-hover:opacity-20 transition-opacity duration-500 z-10"></div>
               <img
-                src="src/assets/ChatGPT Image Feb 13, 2026, 12_05_00 PM.png"
+                src="public/ChatGPT Image Feb 13, 2026, 12_05_00 PM.png"
                 alt="Artist Portrait"
                 className="w-full h-full object-cover object-[20%_30%] grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" />
 

@@ -80,7 +80,7 @@ export function ArtistMomentsSection({ onNavigate }: ArtistMomentsSectionProps) 
               <div className="col-span-2 relative aspect-[16/10] overflow-hidden group cursor-pointer">
                 <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/10 transition-colors duration-500 z-10"></div>
                 <img
-                  src="src/assets/Image 5 - Abstract Female Busts.png"
+                  src="public/Image 5 - Abstract Female Busts.png"
                   alt="Studio Moment"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   style={{ objectPosition: '50% 30%' }}
@@ -96,7 +96,7 @@ export function ArtistMomentsSection({ onNavigate }: ArtistMomentsSectionProps) 
               <div className="relative aspect-square overflow-hidden group cursor-pointer">
                 <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/10 transition-colors duration-500 z-10"></div>
                 <img
-                  src="src/assets/photo_2025-12-20_21-43-11.jpg"
+                  src="public/photo_2025-12-20_21-43-11.jpg"
                   alt="Exhibition Opening"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   style={{ objectPosition: '60% 40%' }}
@@ -106,7 +106,7 @@ export function ArtistMomentsSection({ onNavigate }: ArtistMomentsSectionProps) 
               <div className="relative aspect-square overflow-hidden group cursor-pointer">
                 <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/10 transition-colors duration-500 z-10"></div>
                 <img
-                  src="src/assets/20250712_152902.jpg"
+                  src="public/20250712_152902.jpg"
                   alt="Creative Process"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   style={{ objectPosition: '40% 60%' }}
