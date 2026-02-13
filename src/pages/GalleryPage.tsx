@@ -255,7 +255,7 @@ function GalleryItem({
                   artwork.status === 'Available' ? 'text-terracotta' : 'text-muted line-through'
                 }`}
               >
-                {artwork.status === 'Available' ? `€${artwork.price.toLocaleString()}` : 'Sold'}
+                {artwork.status === 'Available' ? `M${artwork.price.toLocaleString()}` : 'Sold'}
               </span>
 
               <button

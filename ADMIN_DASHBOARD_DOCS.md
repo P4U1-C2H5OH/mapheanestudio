@@ -11,11 +11,13 @@ A complete Content Management System (CMS) for artists to manage their entire po
 ### Login as Artist/Admin
 
 **Artist Account**:
+
 - Email: `artist@email.com` or `aria@email.com`
 - Password: any
 - Role: `artist`
 
 **Admin Account**:
+
 - Email: `admin@email.com`
 - Password: any
 - Role: `admin`
@@ -29,23 +31,27 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 ### 1. **Overview Page**
 
 **Stats Cards**:
+
 - Total Artworks (with available count)
 - Artist Moments (published stories)
 - Total Revenue (from sold works)
 - Pending Orders
 
 **Recent Activity Feed**:
+
 - New moments published
 - Artworks sold
 - New artworks added
 - Moment interactions
 
 **Quick Actions**:
+
 - Add New Artwork
 - Create Moment
 - View Orders
 
 **Top Performing Artworks**:
+
 - Visual grid of best-selling pieces
 
 ---
@@ -53,6 +59,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 ### 2. **Gallery Manager** 🖼️
 
 **Capabilities**:
+
 - ✅ Create new artworks
 - ✅ Edit existing artworks
 - ✅ Delete artworks (with confirmation)
@@ -61,17 +68,19 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 - ✅ Real-time preview
 
 **Artwork Fields**:
-- Title *
+
+- Title \*
 - Medium (Painting/Drawing/Clay Model)
 - Year
 - Dimensions
 - Technique
-- Price (€) *
+- Price (M) \*
 - Status (Available/Sold)
 - Description
 - Image Position (CSS object-position)
 
 **Features**:
+
 - Drag handle for reordering
 - Quick status toggle
 - Inline editing panel
@@ -83,6 +92,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 ### 3. **Moments Manager** ✨
 
 **Capabilities**:
+
 - ✅ Create new moments
 - ✅ Edit existing moments
 - ✅ Delete moments
@@ -91,17 +101,19 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 - ✅ Feature moments
 
 **Standard Fields**:
-- Title *
+
+- Title \*
 - Type (Studio/Exhibition/Process/Travel/Inspiration/Personal)
 - Date
 - Location
 - Mood
 - Featured toggle
 - Excerpt (teaser)
-- Content * (main story)
+- Content \* (main story)
 - Tags
 
 **Custom Fields** (Dynamic):
+
 - Text field
 - Long text (textarea)
 - Date field
@@ -109,6 +121,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 - Each with custom label and value
 
 **Interaction Tracking**:
+
 - View count
 - Like count
 - Displays for each moment
@@ -118,6 +131,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 ### 4. **Orders Manager** 📦
 
 **Capabilities**:
+
 - ✅ View all customer orders
 - ✅ Order details modal
 - ✅ Update order status
@@ -125,6 +139,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 - ✅ Shipping details
 
 **Order Information**:
+
 - Order number
 - Customer (name, email, phone)
 - Shipping address
@@ -135,6 +150,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 - Status
 
 **Status Options**:
+
 - Pending (yellow)
 - Processing (blue)
 - Shipped (purple)
@@ -142,6 +158,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 - Cancelled (red)
 
 **Summary Stats**:
+
 - Total orders
 - Pending orders
 - In progress orders
@@ -154,11 +171,13 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 ### **Sidebar Navigation**
 
 **Collapsible**:
+
 - Click X to collapse to icons only
 - Click Menu to expand full width
 - Smooth width animation
 
 **Menu Items**:
+
 - Overview (BarChart3 icon)
 - Gallery (Image icon)
 - Moments (Sparkles icon)
@@ -166,6 +185,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 - Settings (Settings icon)
 
 **User Section**:
+
 - User avatar/initial
 - Name and email
 - View Site button
@@ -174,6 +194,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 ### **Color Coding**
 
 **Status Colors**:
+
 - Available: Sage green
 - Sold: Muted gray
 - Pending: Yellow
@@ -183,6 +204,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 - Cancelled: Red
 
 **Action Colors**:
+
 - Primary CTA: Terracotta
 - Edit: Charcoal
 - Delete: Red
@@ -191,6 +213,7 @@ Upon login, users with `artist` or `admin` roles are automatically redirected to
 ### **Layout**
 
 **Responsive**:
+
 - Sidebar: Fixed 280px (expanded) / 80px (collapsed)
 - Main content: Fluid with left margin
 - Cards: Grid layouts (1-4 columns)
@@ -216,11 +239,13 @@ src/
 ### **State Management**
 
 **Local State**:
+
 - Each manager uses `useState` for data
 - Forms use controlled components
 - Real-time updates on save/delete
 
 **Data Sources**:
+
 - Artworks: `src/data/artworks.ts`
 - Moments: `src/data/moments.ts`
 - Orders: Mock data (ready for API)
@@ -250,7 +275,7 @@ src/
 1. Click "Create New Moment"
 2. Fill in title, type, content
 3. Add location, mood, tags
-4. *Optional*: Add custom fields
+4. _Optional_: Add custom fields
    - Click "Add Custom Field"
    - Choose field type
    - Enter label and value
@@ -274,18 +299,21 @@ src/
 ### **Artist Role**
 
 **Access**:
+
 - Full gallery management
 - Full moments management
 - View orders
 - Dashboard overview
 
 **Restrictions**:
+
 - Cannot manage other users
 - Cannot change system settings
 
 ### **Admin Role**
 
 **Access**:
+
 - Everything artist can do
 - Plus: User management (future)
 - Plus: System settings (future)
@@ -326,12 +354,14 @@ PATCH  /api/orders/:id/status // Update status
 ### **Image Upload**
 
 Currently uses placeholder. Integrate:
+
 - AWS S3
 - Cloudinary
 - Firebase Storage
 - Custom server
 
 **Flow**:
+
 1. User selects image
 2. Upload to storage
 3. Get URL
@@ -340,6 +370,7 @@ Currently uses placeholder. Integrate:
 ### **Real-time Updates**
 
 For multi-user scenarios:
+
 - WebSockets for live updates
 - Optimistic UI updates
 - Conflict resolution
@@ -363,6 +394,7 @@ For multi-user scenarios:
 ### **Customize Dashboard Stats**
 
 Edit `DashboardOverview.tsx`:
+
 - Add new stat cards
 - Change calculations
 - Add charts/graphs
@@ -426,18 +458,21 @@ Planned features:
 Track these KPIs:
 
 **Gallery**:
+
 - Total artworks
 - Available vs Sold
 - Average price
 - Conversion rate
 
 **Moments**:
+
 - Total published
 - Average views
 - Engagement rate
 - Popular topics
 
 **Orders**:
+
 - Order volume
 - Revenue
 - Average order value
@@ -449,4 +484,4 @@ Track these KPIs:
 
 ---
 
-*Built for artists, by artists.*
+_Built for artists, by artists._

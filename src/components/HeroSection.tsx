@@ -41,10 +41,10 @@ export function HeroSection() {
 
             <div className="flex items-center gap-6">
               <a
-                href="mailto:hello@aria-art.com"
+                href="mailto:hello@mapheane.com"
                 className="text-sm border-b border-charcoal/30 pb-0.5 hover:border-terracotta hover:text-terracotta transition-colors">
 
-                hello@aria-art.com
+                hello@mapheane.com
               </a>
               <a
                 href="tel:+1234567890"
@@ -100,7 +100,7 @@ export function HeroSection() {
               Contemporary Painting
             </p>
             <p className="font-serif italic text-xl text-charcoal">
-              2024 Collection
+              2025 Collection
             </p>
           </motion.div>
 
@@ -120,9 +120,9 @@ export function HeroSection() {
             }}
             className="relative w-full aspect-[3/4] max-w-md ml-auto overflow-hidden">
 
-            <div className="absolute inset-0 bg-terracotta/10 z-0"></div>
+            <div className="absolute inset-0 bg-white/10 z-0"></div>
             <img
-              src="/artportfolio.jpg"
+              src="src/assets/Image 7 - Stylized Portrait b-white.png"
               alt="Featured Artwork"
               className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-[2s] ease-out" />
 

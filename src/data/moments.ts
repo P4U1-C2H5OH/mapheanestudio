@@ -36,7 +36,7 @@ export const artistMoments: ArtistMoment[] = [
   {
     id: 1,
     title: 'First Light in the New Studio',
-    date: '2024-02-10',
+    date: '2025-02-10',
     type: 'studio',
     location: 'Paris, France',
     excerpt: 'The morning sun streams through tall windows, painting golden rectangles on bare walls. This is where magic will happen.',
@@ -72,7 +72,7 @@ I brought only my favorite brush and a single tube of burnt sienna. Painted a sm
   {
     id: 2,
     title: 'Hands Deep in Earth',
-    date: '2024-02-08',
+    date: '2025-02-08',
     type: 'process',
     location: 'Studio',
     excerpt: 'Clay has memory. It remembers every touch, every hesitation. Today we had a conversation.',
@@ -101,7 +101,7 @@ My hands are stained red-brown, dried clay under my fingernails. I could scrub f
   {
     id: 3,
     title: 'Vernissage: A Night of Connections',
-    date: '2024-01-28',
+    date: '2025-01-28',
     type: 'exhibition',
     location: 'Galerie Moderne, Paris',
     excerpt: 'Opening night. The work no longer belongs to me—it belongs to everyone who sees it.',
@@ -113,19 +113,19 @@ Someone asked about my process. I tried to explain but realized—the process is
     media: [
       {
         type: 'image',
-        url: '/artportfolio.jpg',
+        url: 'src/assets/photo_2025-12-20_21-43-11.jpg',
         alt: 'Gallery opening night',
         caption: 'First guests arriving'
       },
       {
         type: 'image',
-        url: '/artportfolio.jpg',
+        url: 'src/assets/photo_2025-12-20_21-43-12 (2).jpg',
         alt: 'Artwork on gallery wall',
         caption: 'Ce Père Idéal in its new home'
       },
       {
         type: 'gallery',
-        url: '/artportfolio.jpg',
+        url: 'src/assets/photo_2025-12-20_21-43-12.jpg',
         alt: 'Guests viewing art',
         caption: 'The moment of connection'
       }
@@ -137,7 +137,7 @@ Someone asked about my process. I tried to explain but realized—the process is
   {
     id: 4,
     title: 'Color Studies at Dawn',
-    date: '2024-01-15',
+    date: '2025-01-15',
     type: 'process',
     location: 'Studio',
     excerpt: 'Before the world wakes, I mix colors. This is my meditation, my prayer.',
@@ -168,7 +168,7 @@ I'll use this color for the background of the new piece. Or maybe I won't. Somet
   {
     id: 5,
     title: 'Sketching Strangers at Café de Flore',
-    date: '2024-01-10',
+    date: '2025-01-10',
     type: 'inspiration',
     location: 'Saint-Germain-des-Prés, Paris',
     excerpt: 'People-watching with a purpose. Every gesture tells a story.',
@@ -199,7 +199,7 @@ Three hours. Seventeen sketches. Two coffees. Countless stories imagined.`,
   {
     id: 6,
     title: 'When Nothing Feels Right',
-    date: '2024-01-05',
+    date: '2025-01-05',
     type: 'personal',
     location: 'Studio',
     excerpt: 'Some days, the work fights back. Today was one of those days.',

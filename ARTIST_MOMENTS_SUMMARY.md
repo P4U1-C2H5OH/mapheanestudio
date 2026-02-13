@@ -9,6 +9,7 @@ The **Artist Moments** feature replaces the generic "Workshops" section with an 
 ## ✨ Key Features
 
 ### 1. **Homepage Teaser Section**
+
 - **Location**: Replaces "Youth Workshops" section
 - **Visual**: 3-image grid preview (1 large + 2 small images)
 - **Stats**: "24 Moments" & "Updated Weekly" badges
@@ -16,15 +17,17 @@ The **Artist Moments** feature replaces the generic "Workshops" section with an 
 - **Design**: Warm background with decorative blur elements
 
 ### 2. **Moments Gallery Page**
+
 - **Layout**: Masonry-style 3-column grid
 - **Filtering**: 6 types (Studio, Exhibition, Process, Travel, Inspiration, Personal)
-- **Interactions**: 
+- **Interactions**:
   - Like/favorite with heart icon
   - Type-coded colored badges
   - Hover effects with image zoom
   - Featured moment badges
-  
+
 ### 3. **Individual Moment Detail View**
+
 - **Hero Image**: Full-width cover image
 - **Content**: Rich text storytelling (300-800 words)
 - **Media Gallery**: Multiple images with lightbox
@@ -33,6 +36,7 @@ The **Artist Moments** feature replaces the generic "Workshops" section with an 
 - **Social**: Share and like buttons
 
 ### 4. **Interactive Lightbox**
+
 - Click any image to expand
 - Navigate with arrows or keyboard
 - Image counter (e.g., "2 / 5")
@@ -104,37 +108,41 @@ src/
 
 Each type has distinct color coding:
 
-| Type | Badge Color | Use Case |
-|------|-------------|----------|
-| **Studio** | Clay | Workspace, tools, environment |
-| **Exhibition** | Terracotta | Shows, openings, public events |
-| **Process** | Sage | Technique, creation, experimentation |
-| **Travel** | Gold | Locations, journeys, exploration |
-| **Inspiration** | Charcoal | Sources, influences, observations |
-| **Personal** | Muted | Reflections, struggles, victories |
+| Type            | Badge Color | Use Case                             |
+| --------------- | ----------- | ------------------------------------ |
+| **Studio**      | Clay        | Workspace, tools, environment        |
+| **Exhibition**  | Terracotta  | Shows, openings, public events       |
+| **Process**     | Sage        | Technique, creation, experimentation |
+| **Travel**      | Gold        | Locations, journeys, exploration     |
+| **Inspiration** | Charcoal    | Sources, influences, observations    |
+| **Personal**    | Muted       | Reflections, struggles, victories    |
 
 ---
 
 ## 🎨 Design Highlights
 
 ### Typography
+
 - **Moment Titles**: Playfair Display, 4-8 words, evocative
 - **Content**: DM Sans, light weight, excellent readability
 - **Metadata**: Uppercase, tracked, small caps style
 
 ### Color Palette
+
 - Maintains existing warm, earthy tones
 - Type-specific accent colors
 - Terracotta for primary CTAs
 - Charcoal for text
 
 ### Animations
+
 - **Scroll Reveals**: Cards fade up, staggered 100ms
 - **Hover Effects**: 1.05x image zoom, 500ms smooth
 - **Page Transitions**: 0.8s fade
 - **Lightbox**: Smooth open/close with backdrop
 
 ### Layout
+
 - **Cards**: 4:5 aspect ratio images
 - **Content**: Max-width for readability
 - **Spacing**: Generous whitespace
@@ -169,21 +177,25 @@ Back to gallery or discover related content
 ### What Makes a Great Moment?
 
 **Good Titles** ✅
+
 - "First Light in the New Studio"
 - "Hands Deep in Earth"
 - "When Nothing Feels Right"
 
 **Bad Titles** ❌
+
 - "Studio Day"
 - "Working with Clay"
 - "A Hard Day"
 
 ### Story Structure
+
 1. **Hook** (first paragraph) - Draw them in
 2. **Body** (2-4 paragraphs) - Tell the story
 3. **Reflection** (final paragraph) - Meaning/insight
 
 ### Image Selection
+
 - Behind-the-scenes over polished shots
 - Action over posed
 - Details over wide shots
@@ -200,14 +212,14 @@ Back to gallery or discover related content
 {
   id: 9, // Next sequential ID
   title: 'Your Moment Title',
-  date: '2024-03-01', // ISO format YYYY-MM-DD
+  date: '2025-03-01', // ISO format YYYY-MM-DD
   type: 'studio', // Choose from 6 types
   location: 'City, Country', // Optional
   excerpt: 'Brief 20-40 word teaser...',
   content: `Full story here.
-  
+
   Multiple paragraphs.
-  
+
   Personal and authentic.`,
   media: [
     {
@@ -230,16 +242,19 @@ Back to gallery or discover related content
 ## 📱 Responsive Behavior
 
 ### Desktop (1024px+)
+
 - 3-column grid
 - Full lightbox with arrow navigation
 - Side-by-side layouts
 
-### Tablet (768px - 1023px)  
+### Tablet (768px - 1023px)
+
 - 2-column grid
 - Adjusted spacing
 - Touch-friendly interactions
 
 ### Mobile (< 768px)
+
 - Single column
 - Stacked layouts
 - Swipe gestures in lightbox
@@ -250,18 +265,21 @@ Back to gallery or discover related content
 ## 🎬 Interactive Features
 
 ### Like System
+
 - Click heart icon to like/unlike
 - Visual feedback with fill animation
 - Stored in component state
 - (Future: Save to user profile)
 
 ### Filtering
+
 - Click type buttons to filter
 - Instant results
 - Active state highlighting
 - Smooth transitions
 
 ### Lightbox
+
 - **Open**: Click any image
 - **Navigate**: Arrow buttons or keyboard
 - **Close**: X button, Esc key, or click outside
@@ -272,6 +290,7 @@ Back to gallery or discover related content
 ## 🎨 Mood Tags
 
 Pre-defined moods used in content:
+
 - Hopeful
 - Meditative
 - Exhilarated
@@ -288,12 +307,14 @@ Add your own by simply including them in moment data!
 ## 📊 Performance
 
 ### Optimizations Applied
+
 - Scroll-triggered animations (only when visible)
 - Efficient filtering (client-side, instant)
 - Lazy loading ready (add when needed)
 - Optimized image sizing
 
 ### Best Practices
+
 - Keep total moments under 50 for performance
 - Compress images before adding
 - Use WebP format when possible
@@ -319,18 +340,23 @@ Add your own by simply including them in moment data!
 ## 🎯 Why This Works
 
 ### Builds Connection
+
 Personal stories create emotional bonds with viewers. They see the person behind the art.
 
 ### Shows Process
+
 Demystifies artistic creation. Visitors appreciate the work, struggle, and dedication.
 
 ### Authentic Voice
+
 Honest storytelling (including struggles) builds trust and relatability.
 
 ### Visual Engagement
+
 Beautiful imagery keeps visitors scrolling and exploring.
 
 ### Easy to Maintain
+
 Adding new moments is simple - just add data, no coding required.
 
 ---
@@ -372,4 +398,4 @@ Show the journey, not just the destination.
 
 ---
 
-*Ready to share your creative journey? Start adding your moments and watch your audience connect with your art on a deeper level.*
+_Ready to share your creative journey? Start adding your moments and watch your audience connect with your art on a deeper level._

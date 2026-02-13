@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-16">
           <div className="text-center md:text-left">
             <h2 className="font-serif text-4xl italic text-charcoal mb-2">
-              Aria
+              'Mapheane
             </h2>
             <p className="text-xs uppercase tracking-widest text-muted">
               Contemporary Artist
@@ -31,7 +31,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-muted border-t border-charcoal/5 pt-8">
-          <p>&copy; 2024 Aria Art Portfolio. All rights reserved.</p>
+          <p>&copy; 2026 'Mapheane Art Portfolio. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-terracotta transition-colors">
               Privacy Policy

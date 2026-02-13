@@ -28,7 +28,7 @@ export function DashboardOverview() {
     },
     {
       label: 'Total Revenue',
-      value: `€${totalRevenue.toLocaleString()}`,
+      value: `M${totalRevenue.toLocaleString()}`,
       icon: TrendingUp,
       color: 'bg-clay',
       subtext: 'From sold artworks'
@@ -132,7 +132,7 @@ export function DashboardOverview() {
                 <div className="flex-1 min-w-0">
                   <p className="font-serif text-sm lg:text-base text-charcoal truncate">{artwork.title}</p>
                   <p className="text-xs lg:text-sm text-muted truncate">{artwork.medium}</p>
-                  <p className="text-xs lg:text-sm font-medium text-terracotta">€{artwork.price.toLocaleString()}</p>
+                  <p className="text-xs lg:text-sm font-medium text-terracotta">M{artwork.price.toLocaleString()}</p>
                 </div>
               </div>
             ))}

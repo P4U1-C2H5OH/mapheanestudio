@@ -192,7 +192,7 @@ export function GalleryManager() {
                   
                   <div>
                     <label className="block text-sm font-medium text-charcoal mb-2">
-                      Price (€) *
+                      Price (M) *
                     </label>
                     <input
                       type="number"
@@ -299,7 +299,7 @@ export function GalleryManager() {
                     <div className="flex items-center gap-4 text-sm text-muted">
                       <span>{artwork.medium}</span>
                       <span>•</span>
-                      <span>€{artwork.price.toLocaleString()}</span>
+                      <span>M{artwork.price.toLocaleString()}</span>
                       <span>•</span>
                       <span className={artwork.status === 'Available' ? 'text-sage' : 'text-muted'}>
                         {artwork.status}

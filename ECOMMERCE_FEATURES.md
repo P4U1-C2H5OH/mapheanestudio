@@ -7,6 +7,7 @@ This portfolio has been enhanced with a complete e-commerce system while maintai
 ## ✨ New Features
 
 ### 1. **Shopping Cart System**
+
 - Persistent cart using localStorage
 - Real-time cart count in navigation
 - Add/remove items
@@ -14,6 +15,7 @@ This portfolio has been enhanced with a complete e-commerce system while maintai
 - Price calculations
 
 ### 2. **Enhanced Gallery**
+
 - **Filters by Medium**: Paintings, Drawings, Clay Models
 - **Availability Filter**: All, Available, Sold
 - **Real-time filtering** with smooth animations
@@ -21,11 +23,11 @@ This portfolio has been enhanced with a complete e-commerce system while maintai
 - Expanded artwork collection (9 pieces)
 
 ### 3. **Multi-Step Checkout**
+
 - **Step 1: Shipping Information**
   - Full name, email, phone
   - Complete address details
   - Form validation
-  
 - **Step 2: Payment Method**
   - Stripe (Credit/Debit cards)
   - PayPal
@@ -38,6 +40,7 @@ This portfolio has been enhanced with a complete e-commerce system while maintai
   - Email confirmation notice
 
 ### 4. **Individual Artwork Pages**
+
 - Multiple image views with thumbnails
 - Detailed artwork information
 - Format selection (Original, Large Print, Medium Print)
@@ -71,20 +74,21 @@ src/
 ### Data Structure
 
 Enhanced `Artwork` interface:
+
 ```typescript
 interface Artwork {
   id: number;
   title: string;
   dimensions: string;
   technique: string;
-  medium: 'Painting' | 'Drawing' | 'Clay Model';  // NEW
-  status: 'Available' | 'Sold';
+  medium: "Painting" | "Drawing" | "Clay Model"; // NEW
+  status: "Available" | "Sold";
   cropPosition: string;
   offsetClass: string;
   price: number;
   description: string;
   images: string[];
-  year?: number;  // NEW
+  year?: number; // NEW
 }
 ```
 
@@ -101,7 +105,9 @@ All new features maintain the established design language:
 ## 💳 Payment Integration
 
 ### Current Implementation
+
 The checkout includes UI for three payment methods:
+
 - **Stripe**: Ready for integration (placeholder form included)
 - **PayPal**: Button ready for SDK integration
 - **Bank Transfer**: Email-based payment details
@@ -111,16 +117,19 @@ The checkout includes UI for three payment methods:
 To make payments functional:
 
 1. **Stripe Integration**:
+
 ```bash
 npm install @stripe/stripe-js @stripe/react-stripe-js
 ```
 
 2. **PayPal Integration**:
+
 ```bash
 npm install @paypal/react-paypal-js
 ```
 
 3. Add environment variables:
+
 ```env
 VITE_STRIPE_PUBLIC_KEY=your_key_here
 VITE_PAYPAL_CLIENT_ID=your_id_here
@@ -153,6 +162,7 @@ npm run build
 ## 📱 Responsive Design
 
 All e-commerce features are fully responsive:
+
 - Mobile-first approach
 - Touch-friendly interactions
 - Optimized cart/checkout layouts for small screens
@@ -173,6 +183,7 @@ For production deployment:
 ## 📊 Analytics Ready
 
 Key events to track:
+
 - `add_to_cart`
 - `remove_from_cart`
 - `begin_checkout`
@@ -182,6 +193,7 @@ Key events to track:
 ## 🎯 Future Enhancements
 
 Potential additions:
+
 - Wishlist functionality
 - Customer reviews
 - Related artworks recommendations
@@ -209,7 +221,7 @@ Edit `src/data/artworks.ts`:
   cropPosition: '50% 50%',
   offsetClass: 'mt-0',
   price: 4500,
-  year: 2024,
+  year: 2025,
   description: 'Description...',
   images: ['/path-to-image.jpg']
 }

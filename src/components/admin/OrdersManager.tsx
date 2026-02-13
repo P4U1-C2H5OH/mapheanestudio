@@ -31,7 +31,7 @@ interface Order {
 const mockOrders: Order[] = [
   {
     id: '1',
-    orderNumber: 'ARO-2024-001',
+    orderNumber: 'ARO-2025-001',
     customer: {
       name: 'Marie Laurent',
       email: 'marie.laurent@email.com',
@@ -53,7 +53,7 @@ const mockOrders: Order[] = [
     ],
     total: 4250,
     status: 'pending',
-    date: '2024-02-13T10:30:00',
+    date: '2025-02-13T10:30:00',
     paymentMethod: 'Stripe'
   }
 ];
@@ -106,7 +106,7 @@ export function OrdersManager() {
         <div className="bg-white border border-charcoal/10 p-4 lg:p-6">
           <p className="text-xs lg:text-sm text-muted mb-1">Total Revenue</p>
           <p className="text-xl lg:text-3xl font-serif text-green-600 break-words">
-            €{orders.reduce((sum, o) => sum + o.total, 0).toLocaleString()}
+            M{orders.reduce((sum, o) => sum + o.total, 0).toLocaleString()}
           </p>
         </div>
       </div>
@@ -150,7 +150,7 @@ export function OrdersManager() {
                   </div>
                   <div className="flex items-center gap-2">
                     <DollarSign className="w-3 h-3 lg:w-4 lg:h-4 flex-shrink-0" />
-                    <span>€{order.total.toLocaleString()}</span>
+                    <span>M{order.total.toLocaleString()}</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Package className="w-3 h-3 lg:w-4 lg:h-4 flex-shrink-0" />
@@ -230,7 +230,7 @@ export function OrdersManager() {
                         <p className="font-medium text-charcoal">{item.title}</p>
                         <p className="text-sm text-muted">Quantity: {item.quantity}</p>
                       </div>
-                      <p className="font-medium text-charcoal">€{item.price.toLocaleString()}</p>
+                      <p className="font-medium text-charcoal">M{item.price.toLocaleString()}</p>
                     </div>
                   ))}
                 </div>
@@ -240,7 +240,7 @@ export function OrdersManager() {
               <div className="pt-6 border-t border-charcoal/10">
                 <div className="flex items-center justify-between text-lg">
                   <span className="font-medium text-charcoal">Total</span>
-                  <span className="font-serif text-2xl text-terracotta">€{selectedOrder.total.toLocaleString()}</span>
+                  <span className="font-serif text-2xl text-terracotta">M{selectedOrder.total.toLocaleString()}</span>
                 </div>
                 <p className="text-sm text-muted mt-2">Payment via {selectedOrder.paymentMethod}</p>
               </div>

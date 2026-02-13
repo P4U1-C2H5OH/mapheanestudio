@@ -112,7 +112,7 @@ export function CartPage({ onNavigate }: CartPageProps) {
                     {/* Price */}
                     <div className="text-right">
                       <p className="font-serif text-xl text-charcoal">
-                        €{(item.artwork.price * item.quantity).toLocaleString()}
+                        M{(item.artwork.price * item.quantity).toLocaleString()}
                       </p>
                     </div>
                   </div>
@@ -138,7 +138,7 @@ export function CartPage({ onNavigate }: CartPageProps) {
               <div className="space-y-4 mb-6 pb-6 border-b border-charcoal/10">
                 <div className="flex justify-between text-sm">
                   <span className="text-muted">Subtotal</span>
-                  <span className="text-charcoal">€{getCartTotal().toLocaleString()}</span>
+                  <span className="text-charcoal">M{getCartTotal().toLocaleString()}</span>
                 </div>
                 <div className="flex justify-between text-sm">
                   <span className="text-muted">Shipping</span>
@@ -149,7 +149,7 @@ export function CartPage({ onNavigate }: CartPageProps) {
               <div className="flex justify-between mb-8">
                 <span className="font-serif text-xl text-charcoal">Total</span>
                 <span className="font-serif text-2xl text-terracotta">
-                  €{getCartTotal().toLocaleString()}
+                  M{getCartTotal().toLocaleString()}
                 </span>
               </div>
 

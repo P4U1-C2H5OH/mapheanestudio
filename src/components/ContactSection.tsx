@@ -13,7 +13,7 @@ export function ContactSection() {
             Get in Touch
           </h2>
           <p className="text-muted font-light">
-            For inquiries about paintings or workshops
+            For inquiries about paintings or commissions, please reach out using the form below.
           </p>
         </div>
 

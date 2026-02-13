@@ -122,7 +122,7 @@ export function ArtworkPage({ artworkId, onNavigate }: ArtworkPageProps) {
                 {artwork.title}
               </h1>
               <p className="text-2xl text-terracotta font-serif italic">
-                €{getPrice().toLocaleString()}
+                M{getPrice().toLocaleString()}
               </p>
             </div>
 
@@ -180,10 +180,10 @@ export function ArtworkPage({ artworkId, onNavigate }: ArtworkPageProps) {
 
                       <span className="text-muted">
                             {size === 'Original' ?
-                        `€${artwork.price.toLocaleString()}` :
+                        `M${artwork.price.toLocaleString()}` :
                         size === 'Large Print' ?
-                        '€450' :
-                        '€250'}
+                        'M450' :
+                        'M250'}
                           </span>
                       }
                       </button>
@@ -233,7 +233,7 @@ export function ArtworkPage({ artworkId, onNavigate }: ArtworkPageProps) {
                     <>
                       <ShoppingBag className="w-5 h-5" />
                       <span className="uppercase tracking-widest text-sm">
-                        Add to Cart • €{(getPrice() * quantity).toLocaleString()}
+                        Add to Cart • M{(getPrice() * quantity).toLocaleString()}
                       </span>
                     </>
                   )}

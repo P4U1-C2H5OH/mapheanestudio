@@ -9,9 +9,11 @@ A comprehensive art portfolio platform featuring **e-commerce**, **storytelling*
 ## 🌟 Complete Feature Set
 
 ### 1. **E-Commerce Platform** 🛒
+
 **Status**: ✅ Complete
 
 **Features**:
+
 - Shopping cart with localStorage persistence
 - Multi-step checkout (Shipping → Payment → Confirmation)
 - Multiple payment options (Stripe, PayPal, Bank Transfer)
@@ -21,6 +23,7 @@ A comprehensive art portfolio platform featuring **e-commerce**, **storytelling*
 - Cart icon with live item count
 
 **Files**:
+
 - `src/context/CartContext.tsx`
 - `src/components/CartIcon.tsx`
 - `src/pages/CartPage.tsx`
@@ -32,9 +35,11 @@ A comprehensive art portfolio platform featuring **e-commerce**, **storytelling*
 ---
 
 ### 2. **Artist Moments** 📸
+
 **Status**: ✅ Complete
 
 **Features**:
+
 - Blog-style storytelling platform
 - 8 pre-written personal narratives
 - Filter by type (Studio, Exhibition, Process, Travel, Inspiration, Personal)
@@ -44,6 +49,7 @@ A comprehensive art portfolio platform featuring **e-commerce**, **storytelling*
 - Mood tags and metadata
 
 **Files**:
+
 - `src/data/moments.ts`
 - `src/components/ServicesSection.tsx` (ArtistMomentsSection)
 - `src/pages/MomentsPage.tsx`
@@ -54,9 +60,11 @@ A comprehensive art portfolio platform featuring **e-commerce**, **storytelling*
 ---
 
 ### 3. **Events System** 🎭
+
 **Status**: ✅ Complete
 
 **Features**:
+
 - Calendar integration (Google Calendar + .ics download)
 - RSVP functionality
 - Filter by event type (Exhibitions, Workshops, Talks, Fairs, Private)
@@ -67,6 +75,7 @@ A comprehensive art portfolio platform featuring **e-commerce**, **storytelling*
 - Ticket/admission details
 
 **Files**:
+
 - `src/data/events.ts`
 - `src/components/EventsSection.tsx`
 - `src/pages/EventsPage.tsx`
@@ -79,6 +88,7 @@ A comprehensive art portfolio platform featuring **e-commerce**, **storytelling*
 ### 4. **Core Portfolio Features** 🎨
 
 **Included from Original**:
+
 - Hero section with featured artwork
 - About section
 - Gallery with artwork filtering
@@ -89,6 +99,7 @@ A comprehensive art portfolio platform featuring **e-commerce**, **storytelling*
 - Footer
 
 **Enhanced**:
+
 - All sections now interactive
 - Smooth page transitions
 - Comprehensive routing
@@ -152,8 +163,9 @@ mapheaneportfolio/
 ## 🎯 User Journeys
 
 ### **Purchase Journey**
+
 ```
-Browse Gallery 
+Browse Gallery
   → Filter artworks
   → View artwork details
   → Add to cart
@@ -163,6 +175,7 @@ Browse Gallery
 ```
 
 ### **Moments Journey**
+
 ```
 Homepage teaser
   → All moments
@@ -174,6 +187,7 @@ Homepage teaser
 ```
 
 ### **Events Journey**
+
 ```
 Upcoming events
   → View all events
@@ -189,6 +203,7 @@ Upcoming events
 ## 🎨 Design System
 
 ### **Color Palette**
+
 - Background: `#FAF7F2` (Warm White)
 - Primary: `#A0522D` (Terracotta)
 - Text: `#2D2A26` (Charcoal)
@@ -198,12 +213,14 @@ Upcoming events
 - Muted: `#9E9890`
 
 ### **Typography**
+
 - **Headings**: Playfair Display (serif)
 - **Body**: DM Sans (sans-serif)
 - **Hierarchy**: Consistent size scale
 - **Weights**: 300 (light), 400 (regular), 500 (medium), 600 (semibold)
 
 ### **Components**
+
 - Cards with hover effects
 - Smooth transitions (0.3-0.7s)
 - Scroll-triggered animations
@@ -215,12 +232,14 @@ Upcoming events
 ## 📊 Content Summary
 
 ### **Artworks**: 9 pieces
+
 - 4 Paintings
-- 3 Drawings  
+- 3 Drawings
 - 2 Clay Models
-- Price range: €1,500 - €5,200
+- Price range: M1,500 - M5,200
 
 ### **Artist Moments**: 8 stories
+
 - Studio sessions
 - Exhibition openings
 - Process documentation
@@ -229,11 +248,12 @@ Upcoming events
 - Learning experiences
 
 ### **Events**: 5 events
+
 - 3 Exhibitions
 - 1 Workshop
 - 1 Artist Talk
 - Various locations (Paris, Brussels, Vannes)
-- March - May 2024
+- March - May 2025
 
 ---
 
@@ -265,6 +285,7 @@ npm run preview
 ✅ Large Desktop (1440px+)
 
 All features fully responsive with:
+
 - Touch-optimized interactions
 - Adaptive layouts
 - Mobile-first approach
@@ -275,18 +296,21 @@ All features fully responsive with:
 ## ✨ Interactive Features
 
 ### **Shopping**
+
 - Add/remove from cart
 - Quantity adjustment
 - Price calculations
 - Order processing
 
 ### **Engagement**
+
 - Like moments
 - RSVP to events
 - Share functionality
 - Calendar sync
 
 ### **Navigation**
+
 - Smooth scroll
 - Page transitions
 - Back navigation
@@ -333,6 +357,7 @@ All features fully responsive with:
 ## 🔮 Ready for Production
 
 ### **Ready Now**:
+
 - All UI/UX complete
 - Shopping cart functional
 - Calendar integration working
@@ -340,12 +365,14 @@ All features fully responsive with:
 - Responsive across devices
 
 ### **Needs API Integration**:
+
 - Payment processing (Stripe/PayPal keys)
 - Email confirmations (SendGrid, Mailgun, etc.)
 - Backend for order processing
 - Inventory management (optional)
 
 ### **Optional Enhancements**:
+
 - Google Maps for event locations
 - Video support for moments
 - Search functionality
@@ -359,16 +386,19 @@ All features fully responsive with:
 All content is managed through simple data files:
 
 **Artworks**: `src/data/artworks.ts`
+
 - Add new pieces
 - Update prices
 - Change availability
 
 **Moments**: `src/data/moments.ts`
+
 - Write new stories
 - Add images
 - Set mood/tags
 
 **Events**: `src/data/events.ts`
+
 - Create events
 - Set schedules
 - Configure RSVP
@@ -380,6 +410,7 @@ No database required for basic operation!
 ## 🎨 Brand Consistency
 
 Every feature maintains:
+
 - Warm, earthy color palette
 - Elegant serif/sans combination
 - Generous whitespace
@@ -392,18 +423,21 @@ Every feature maintains:
 ## 💡 Usage Tips
 
 ### **Adding Content**
+
 1. Open relevant data file
 2. Copy existing entry
 3. Update with new content
 4. Save - it's live!
 
 ### **Customizing Design**
+
 - Colors: `tailwind.config.js`
 - Spacing: Tailwind utilities
 - Animations: Framer Motion props
 - Typography: Google Fonts link
 
 ### **Managing Orders** (Future)
+
 - Current: localStorage (demo)
 - Production: Connect to backend
 - Recommended: Firebase, Supabase, or custom API
@@ -413,18 +447,21 @@ Every feature maintains:
 ## 🌟 Highlights
 
 ### **E-Commerce**
+
 - Professional checkout flow
 - Multiple payment options
 - Real-time cart updates
 - Smooth user experience
 
 ### **Storytelling**
+
 - Personal narratives
 - Rich media galleries
 - Emotional connection
 - Behind-the-scenes access
 
 ### **Events**
+
 - Calendar integration
 - RSVP management
 - Detailed information
@@ -438,7 +475,7 @@ Every feature maintains:
 - **Total Components**: 11
 - **Data Files**: 3
 - **Lines of Code**: ~5,000+
-- **Pre-loaded Content**: 
+- **Pre-loaded Content**:
   - 9 Artworks
   - 8 Moments
   - 5 Events
@@ -464,6 +501,7 @@ Every feature maintains:
 ## 🚀 Deployment Ready
 
 Works with:
+
 - Vercel
 - Netlify
 - GitHub Pages
@@ -486,7 +524,7 @@ Just run `npm run build` and deploy the `dist` folder!
 
 ---
 
-**Your complete art portfolio platform is ready!** 
+**Your complete art portfolio platform is ready!**
 
 Every feature has been thoughtfully designed and implemented with the artist's journey in mind. From showcasing work to selling pieces, from sharing stories to managing events—this platform does it all with elegance and professionalism.
 
@@ -494,4 +532,4 @@ Every feature has been thoughtfully designed and implemented with the artist's j
 
 ---
 
-*Built with care, designed with purpose, crafted for artists.*
+_Built with care, designed with purpose, crafted for artists._

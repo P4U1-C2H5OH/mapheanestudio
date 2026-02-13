@@ -29,7 +29,7 @@ export function AboutSection({ onNavigate }: AboutSectionProps) {
             <div className="relative w-full aspect-[4/5] overflow-hidden group">
               <div className="absolute inset-0 bg-terracotta mix-blend-multiply opacity-0 group-hover:opacity-20 transition-opacity duration-500 z-10"></div>
               <img
-                src="/artportfolio.jpg"
+                src="src/assets/ChatGPT Image Feb 13, 2026, 12_05_00 PM.png"
                 alt="Artist Portrait"
                 className="w-full h-full object-cover object-[20%_30%] grayscale-[20%] group-hover:grayscale-0 transition-all duration-700" />
 
@@ -41,7 +41,7 @@ export function AboutSection({ onNavigate }: AboutSectionProps) {
             className={`lg:col-span-7 transition-all duration-1000 delay-300 ease-out transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}>
 
             <h2 className="font-serif text-6xl md:text-8xl text-charcoal mb-8 leading-none">
-              aria
+              'Mapheane
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">

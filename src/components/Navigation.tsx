@@ -85,7 +85,7 @@ export function Navigation({ onNavigate }: NavigationProps) {
           {/* Left: Category */}
           <div className="hidden md:block w-1/3">
             <span className="text-xs tracking-[0.2em] uppercase font-medium text-muted">
-              Contemporary Painting
+              Unorthadox Painting
             </span>
           </div>
 
@@ -96,7 +96,7 @@ export function Navigation({ onNavigate }: NavigationProps) {
               onClick={handleLogoClick}
               className="font-serif text-3xl italic text-charcoal hover:text-terracotta transition-colors duration-300">
 
-              Aria
+              'Mapheane
             </a>
           </div>
 
@@ -258,10 +258,10 @@ export function Navigation({ onNavigate }: NavigationProps) {
                 Contact
               </p>
               <a
-              href="mailto:hello@aria-art.com"
+              href="mailto:hello@mapheane.com"
               className="font-serif text-xl hover:underline decoration-1 underline-offset-4">
 
-                hello@aria-art.com
+                hello@mapheane.com
               </a>
             </div>
           </motion.div>

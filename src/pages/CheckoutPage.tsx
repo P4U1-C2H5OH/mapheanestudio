@@ -82,17 +82,17 @@ export function CheckoutPage({ onNavigate }: CheckoutPageProps) {
                     {item.artwork.title} × {item.quantity}
                   </span>
                   <span className="text-charcoal">
-                    €{(item.artwork.price * item.quantity).toLocaleString()}
+                    M{(item.artwork.price * item.quantity).toLocaleString()}
                   </span>
                 </div>
               ))}
               <div className="flex justify-between text-sm pt-3 border-t border-charcoal/10">
                 <span className="text-muted">Shipping</span>
-                <span className="text-charcoal">€{shippingCost}</span>
+                <span className="text-charcoal">M{shippingCost}</span>
               </div>
               <div className="flex justify-between font-serif text-xl pt-3 border-t border-charcoal/10">
                 <span className="text-charcoal">Total</span>
-                <span className="text-terracotta">€{total.toLocaleString()}</span>
+                <span className="text-terracotta">M{total.toLocaleString()}</span>
               </div>
             </div>
           </div>
@@ -409,7 +409,7 @@ export function CheckoutPage({ onNavigate }: CheckoutPageProps) {
                       <p className="text-sm text-charcoal font-medium">{item.artwork.title}</p>
                       <p className="text-xs text-muted">Qty: {item.quantity}</p>
                       <p className="text-sm text-charcoal">
-                        €{(item.artwork.price * item.quantity).toLocaleString()}
+                        M{(item.artwork.price * item.quantity).toLocaleString()}
                       </p>
                     </div>
                   </div>
@@ -419,18 +419,18 @@ export function CheckoutPage({ onNavigate }: CheckoutPageProps) {
               <div className="space-y-3 mb-6 pb-6 border-b border-charcoal/10">
                 <div className="flex justify-between text-sm">
                   <span className="text-muted">Subtotal</span>
-                  <span className="text-charcoal">€{getCartTotal().toLocaleString()}</span>
+                  <span className="text-charcoal">M{getCartTotal().toLocaleString()}</span>
                 </div>
                 <div className="flex justify-between text-sm">
                   <span className="text-muted">Shipping</span>
-                  <span className="text-charcoal">€{shippingCost}</span>
+                  <span className="text-charcoal">M{shippingCost}</span>
                 </div>
               </div>
 
               <div className="flex justify-between">
                 <span className="font-serif text-xl text-charcoal">Total</span>
                 <span className="font-serif text-2xl text-terracotta">
-                  €{total.toLocaleString()}
+                  M{total.toLocaleString()}
                 </span>
               </div>
             </div>

@@ -72,9 +72,9 @@ The collection features fifteen new works, including the monumental "Vessel of T
       }
     },
     schedule: {
-      startDate: '2024-03-15',
-      endDate: '2024-04-28',
-      openingReception: '2024-03-15T18:00:00',
+      startDate: '2026-03-15',
+      endDate: '2026-04-28',
+      openingReception: '2026-03-15T18:00:00',
       hours: {
         'Tuesday-Saturday': '11:00 AM - 7:00 PM',
         'Sunday': '2:00 PM - 6:00 PM',
@@ -100,7 +100,7 @@ The collection features fifteen new works, including the monumental "Vessel of T
       phone: '+33 1 46 05 88 00',
       website: 'https://galeriemondapart.com'
     },
-    tags: ['solo exhibition', 'ceramics', 'painting', 'paris', 'spring 2024']
+    tags: ['solo exhibition', 'ceramics', 'painting', 'paris', 'spring 2026']
   },
   {
     id: 2,
@@ -125,9 +125,9 @@ The opening weekend features panel discussions on the role of traditional techni
       }
     },
     schedule: {
-      startDate: '2024-04-10',
-      endDate: '2024-05-20',
-      openingReception: '2024-04-10T19:00:00',
+      startDate: '2026-04-10',
+      endDate: '2026-05-20',
+      openingReception: '2026-04-10T19:00:00',
       hours: {
         'Wednesday-Sunday': '12:00 PM - 6:00 PM',
         'Monday-Tuesday': 'Closed'
@@ -181,8 +181,8 @@ Limited to 12 participants to ensure personalized attention. All materials provi
       }
     },
     schedule: {
-      startDate: '2024-05-04',
-      endDate: '2024-05-05',
+      startDate: '2026-05-04',
+      endDate: '2026-05-05',
       hours: {
         'Saturday-Sunday': '10:00 AM - 5:00 PM (with lunch break)'
       }
@@ -198,7 +198,7 @@ Limited to 12 participants to ensure personalized attention. All materials provi
       'Certificate of completion'
     ],
     ticketInfo: {
-      price: '€280 per person',
+      price: 'M280 per person',
       required: true,
       url: 'https://moovgallery.com/workshops'
     },
@@ -231,8 +231,8 @@ Following the presentation, there will be time for audience questions and a smal
       country: 'France'
     },
     schedule: {
-      startDate: '2024-03-22',
-      endDate: '2024-03-22',
+      startDate: '2026-03-22',
+      endDate: '2026-03-22',
       hours: {
         'Friday': '7:00 PM - 9:00 PM'
       }
@@ -259,11 +259,11 @@ Following the presentation, there will be time for audience questions and a smal
   },
   {
     id: 5,
-    title: 'Art Paris 2024',
+    title: 'Art Paris 2026',
     subtitle: 'International Contemporary Art Fair',
     type: 'fair',
     status: 'upcoming',
-    description: `I'm thrilled to be represented by Galerie Mondapart at Art Paris 2024, one of Europe's premier contemporary art fairs. This year's edition brings together over 150 galleries from 25 countries under the iconic glass roof of the Grand Palais Éphémère.
+    description: `I'm thrilled to be represented by Galerie Mondapart at Art Paris 2026, one of Europe's premier contemporary art fairs. This year's edition brings together over 150 galleries from 25 countries under the iconic glass roof of the Grand Palais Éphémère.
 
 Visit our booth (C12) to see a curated selection of recent works, including pieces from the "Terre et Lumière" series and exclusive fair previews. I'll be present at the booth on opening day (April 4) and Saturday afternoon (April 6) for informal conversations with collectors and art enthusiasts.
 
@@ -280,9 +280,9 @@ Art Paris offers a unique opportunity to see my work alongside international con
       }
     },
     schedule: {
-      startDate: '2024-04-04',
-      endDate: '2024-04-07',
-      openingReception: '2024-04-04T18:00:00',
+      startDate: '2026-04-04',
+      endDate: '2026-04-07',
+      openingReception: '2026-04-04T18:00:00',
       hours: {
         'Thursday': '12:00 PM - 8:00 PM (VIP Preview 11 AM)',
         'Friday-Saturday': '11:00 AM - 8:00 PM',
@@ -301,7 +301,7 @@ Art Paris offers a unique opportunity to see my work alongside international con
       'Special commissions accepted'
     ],
     ticketInfo: {
-      price: '€25 general admission, €45 VIP preview',
+      price: 'M25 general admission, M45 VIP preview',
       required: true,
       url: 'https://artparis.com/tickets'
     },
@@ -309,7 +309,7 @@ Art Paris offers a unique opportunity to see my work alongside international con
       email: 'contact@galeriemondapart.fr',
       website: 'https://artparis.com'
     },
-    tags: ['art fair', 'paris', 'contemporary art', 'grand palais', 'spring 2024']
+    tags: ['art fair', 'paris', 'contemporary art', 'grand palais', 'spring 2026']
   }
 ];
 
@@ -347,7 +347,7 @@ export const generateICS = (event: Event): string => {
 VERSION:2.0
 PRODID:-//Aria Art Portfolio//Events//EN
 BEGIN:VEVENT
-UID:${event.id}@aria-art.com
+UID:${event.id}@mapheane.com
 DTSTAMP:${formatDate(new Date().toISOString())}
 DTSTART:${formatDate(startDate)}
 DTEND:${formatDate(endDate)}
