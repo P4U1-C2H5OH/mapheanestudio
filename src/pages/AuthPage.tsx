@@ -128,7 +128,7 @@ export function AuthPage({ onNavigate }: AuthPageProps) {
               animate={{ scale: 1 }}
               transition={{ delay: 0.3, duration: 0.5 }}
             >
-              <h1 className="font-serif text-5xl md:text-6xl text-charcoal mb-4">
+              <h1 className="font-serif text-5xl md:text-6xl text-charcoal mb-4 mt-8">
                 {mode === 'login' ? 'Welcome Back' : 'Join Us'}
               </h1>
               <p className="text-muted font-light">
