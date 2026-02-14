@@ -70,7 +70,7 @@ export function AdminDashboard({ onNavigate }: AdminDashboardProps) {
             <Menu className="w-6 h-6 text-charcoal" />
           </button>
           
-          <h1 className="font-serif text-2xl text-charcoal italic">Aria</h1>
+          <h1 className="font-serif text-2xl text-charcoal italic">'Mapheane</h1>
           
           <div className="w-10 h-10 rounded-full bg-gradient-to-br from-terracotta to-gold flex items-center justify-center text-sm font-semibold text-white">
             {user?.name[0].toUpperCase()}
@@ -103,7 +103,7 @@ export function AdminDashboard({ onNavigate }: AdminDashboardProps) {
               {/* Close Button */}
               <div className="h-16 flex items-center justify-between px-6 border-b border-white/10">
                 <div>
-                  <h1 className="font-serif text-2xl text-white italic">Aria</h1>
+                  <h1 className="font-serif text-2xl text-white italic">'Mapheane</h1>
                   <p className="text-xs text-white/50 uppercase tracking-[0.2em] mt-0.5">
                     Studio
                   </p>
@@ -202,7 +202,7 @@ export function AdminDashboard({ onNavigate }: AdminDashboardProps) {
                   exit={{ opacity: 0, x: -20 }}
                   transition={{ duration: 0.2 }}
                 >
-                  <h1 className="font-serif text-3xl text-white italic">Aria</h1>
+                  <h1 className="font-serif text-3xl text-white italic">'Mapheane</h1>
                   <p className="text-xs text-white/50 uppercase tracking-[0.2em] mt-1">
                     Studio
                   </p>
